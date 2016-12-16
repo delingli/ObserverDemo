@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="observer.ldl.com.observerdemo.MainActivity">
+<TextView
+    android:id="@+id/tv_showData"
+    android:layout_width="100dp"
+    android:text="1111"
+    android:gravity="center"
+    android:textColor="#63C"
+    android:background="#000000"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="100dp" />
+    <Button
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:text="跳转"
+        android:textColor="#666666"
+        android:layout_width="match_parent"
+        android:onClick="btnJump"
+        android:layout_height="wrap_content" />
+</LinearLayout>
